@@ -1,0 +1,614 @@
+{
+  "sheets": {
+    "robots": [
+      {
+        "name": "basic_red",
+        "file": "sprites/robots/basic_red.png",
+        "size": [
+          159,
+          206
+        ]
+      },
+      {
+        "name": "upgraded_blue",
+        "file": "sprites/robots/upgraded_blue.png",
+        "size": [
+          170,
+          196
+        ]
+      },
+      {
+        "name": "gold_premium",
+        "file": "sprites/robots/gold_premium.png",
+        "size": [
+          161,
+          207
+        ]
+      },
+      {
+        "name": "rusty",
+        "file": "sprites/robots/rusty.png",
+        "size": [
+          156,
+          206
+        ]
+      },
+      {
+        "name": "neon",
+        "file": "sprites/robots/neon.png",
+        "size": [
+          158,
+          209
+        ]
+      },
+      {
+        "name": "evil",
+        "file": "sprites/robots/evil.png",
+        "size": [
+          165,
+          209
+        ]
+      }
+    ],
+    "tiles": [
+      {
+        "name": "grass_tall",
+        "file": "sprites/tiles/grass_tall.png",
+        "size": [
+          179,
+          196
+        ]
+      },
+      {
+        "name": "grass_short",
+        "file": "sprites/tiles/grass_short.png",
+        "size": [
+          173,
+          189
+        ]
+      },
+      {
+        "name": "grass_autumn",
+        "file": "sprites/tiles/grass_autumn.png",
+        "size": [
+          171,
+          192
+        ]
+      },
+      {
+        "name": "grass_moonlit",
+        "file": "sprites/tiles/grass_moonlit.png",
+        "size": [
+          172,
+          192
+        ]
+      },
+      {
+        "name": "sand_zen",
+        "file": "sprites/tiles/sand_zen.png",
+        "size": [
+          170,
+          189
+        ]
+      },
+      {
+        "name": "grass_pixel",
+        "file": "sprites/tiles/grass_pixel.png",
+        "size": [
+          172,
+          190
+        ]
+      }
+    ],
+    "features": [
+      {
+        "name": "tree",
+        "file": "sprites/features/tree.png",
+        "size": [
+          130,
+          185
+        ]
+      },
+      {
+        "name": "rock",
+        "file": "sprites/features/rock.png",
+        "size": [
+          99,
+          117
+        ]
+      },
+      {
+        "name": "pond",
+        "file": "sprites/features/pond.png",
+        "size": [
+          136,
+          133
+        ]
+      },
+      {
+        "name": "flower_cluster",
+        "file": "sprites/features/flower_cluster.png",
+        "size": [
+          113,
+          146
+        ]
+      },
+      {
+        "name": "beehive",
+        "file": "sprites/features/beehive.png",
+        "size": [
+          105,
+          156
+        ]
+      },
+      {
+        "name": "fountain",
+        "file": "sprites/features/fountain.png",
+        "size": [
+          129,
+          181
+        ]
+      },
+      {
+        "name": "shed",
+        "file": "sprites/features/shed.png",
+        "size": [
+          117,
+          174
+        ]
+      },
+      {
+        "name": "gnome_friendly",
+        "file": "sprites/features/gnome_friendly.png",
+        "size": [
+          78,
+          154
+        ]
+      },
+      {
+        "name": "gnome_evil",
+        "file": "sprites/features/gnome_evil.png",
+        "size": [
+          78,
+          160
+        ]
+      },
+      {
+        "name": "mole_mound",
+        "file": "sprites/features/mole_mound.png",
+        "size": [
+          113,
+          103
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "bee",
+        "file": "sprites/characters/bee.png",
+        "size": [
+          126,
+          154
+        ]
+      },
+      {
+        "name": "mole",
+        "file": "sprites/characters/mole.png",
+        "size": [
+          180,
+          165
+        ]
+      },
+      {
+        "name": "neighbor_granny",
+        "file": "sprites/characters/neighbor_granny.png",
+        "size": [
+          143,
+          267
+        ]
+      },
+      {
+        "name": "neighbor_chad",
+        "file": "sprites/characters/neighbor_chad.png",
+        "size": [
+          167,
+          259
+        ]
+      },
+      {
+        "name": "mayor",
+        "file": "sprites/characters/mayor.png",
+        "size": [
+          156,
+          257
+        ]
+      },
+      {
+        "name": "player_mower",
+        "file": "sprites/characters/player_mower.png",
+        "size": [
+          163,
+          313
+        ]
+      }
+    ],
+    "flowers": [
+      {
+        "name": "pink",
+        "file": "sprites/flowers/pink.png",
+        "size": [
+          150,
+          184
+        ]
+      },
+      {
+        "name": "orange",
+        "file": "sprites/flowers/orange.png",
+        "size": [
+          149,
+          182
+        ]
+      },
+      {
+        "name": "purple",
+        "file": "sprites/flowers/purple.png",
+        "size": [
+          146,
+          183
+        ]
+      },
+      {
+        "name": "red",
+        "file": "sprites/flowers/red.png",
+        "size": [
+          143,
+          179
+        ]
+      },
+      {
+        "name": "white",
+        "file": "sprites/flowers/white.png",
+        "size": [
+          146,
+          181
+        ]
+      },
+      {
+        "name": "yellow",
+        "file": "sprites/flowers/yellow.png",
+        "size": [
+          147,
+          182
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "coin",
+        "file": "sprites/items/coin.png",
+        "size": [
+          100,
+          107
+        ]
+      },
+      {
+        "name": "coin_stack",
+        "file": "sprites/items/coin_stack.png",
+        "size": [
+          103,
+          125
+        ]
+      },
+      {
+        "name": "gem",
+        "file": "sprites/items/gem.png",
+        "size": [
+          96,
+          97
+        ]
+      },
+      {
+        "name": "ruby",
+        "file": "sprites/items/ruby.png",
+        "size": [
+          98,
+          100
+        ]
+      },
+      {
+        "name": "chest_closed",
+        "file": "sprites/items/chest_closed.png",
+        "size": [
+          129,
+          126
+        ]
+      },
+      {
+        "name": "chest_open",
+        "file": "sprites/items/chest_open.png",
+        "size": [
+          138,
+          169
+        ]
+      },
+      {
+        "name": "fuel_can",
+        "file": "sprites/items/fuel_can.png",
+        "size": [
+          108,
+          131
+        ]
+      },
+      {
+        "name": "energy_crystal",
+        "file": "sprites/items/energy_crystal.png",
+        "size": [
+          102,
+          153
+        ]
+      }
+    ],
+    "ui_icons": [
+      {
+        "name": "cart",
+        "file": "sprites/ui_icons/cart.png",
+        "size": [
+          186,
+          171
+        ]
+      },
+      {
+        "name": "wrench",
+        "file": "sprites/ui_icons/wrench.png",
+        "size": [
+          166,
+          189
+        ]
+      },
+      {
+        "name": "robot_head",
+        "file": "sprites/ui_icons/robot_head.png",
+        "size": [
+          188,
+          196
+        ]
+      },
+      {
+        "name": "grass_blade",
+        "file": "sprites/ui_icons/grass_blade.png",
+        "size": [
+          179,
+          191
+        ]
+      },
+      {
+        "name": "flower",
+        "file": "sprites/ui_icons/flower.png",
+        "size": [
+          167,
+          190
+        ]
+      },
+      {
+        "name": "bee",
+        "file": "sprites/ui_icons/bee.png",
+        "size": [
+          187,
+          192
+        ]
+      },
+      {
+        "name": "gnome",
+        "file": "sprites/ui_icons/gnome.png",
+        "size": [
+          148,
+          226
+        ]
+      },
+      {
+        "name": "ruby",
+        "file": "sprites/ui_icons/ruby.png",
+        "size": [
+          185,
+          178
+        ]
+      },
+      {
+        "name": "gem",
+        "file": "sprites/ui_icons/gem.png",
+        "size": [
+          181,
+          166
+        ]
+      },
+      {
+        "name": "coin",
+        "file": "sprites/ui_icons/coin.png",
+        "size": [
+          169,
+          184
+        ]
+      },
+      {
+        "name": "star",
+        "file": "sprites/ui_icons/star.png",
+        "size": [
+          176,
+          176
+        ]
+      },
+      {
+        "name": "lock",
+        "file": "sprites/ui_icons/lock.png",
+        "size": [
+          144,
+          196
+        ]
+      },
+      {
+        "name": "check",
+        "file": "sprites/ui_icons/check.png",
+        "size": [
+          181,
+          171
+        ]
+      },
+      {
+        "name": "cross",
+        "file": "sprites/ui_icons/cross.png",
+        "size": [
+          156,
+          176
+        ]
+      },
+      {
+        "name": "gear",
+        "file": "sprites/ui_icons/gear.png",
+        "size": [
+          180,
+          189
+        ]
+      },
+      {
+        "name": "trophy",
+        "file": "sprites/ui_icons/trophy.png",
+        "size": [
+          195,
+          190
+        ]
+      }
+    ],
+    "weather_fx": [
+      {
+        "name": "rain",
+        "file": "sprites/weather_fx/rain.png",
+        "size": [
+          94,
+          143
+        ]
+      },
+      {
+        "name": "snow",
+        "file": "sprites/weather_fx/snow.png",
+        "size": [
+          127,
+          147
+        ]
+      },
+      {
+        "name": "storm",
+        "file": "sprites/weather_fx/storm.png",
+        "size": [
+          137,
+          158
+        ]
+      },
+      {
+        "name": "fog",
+        "file": "sprites/weather_fx/fog.png",
+        "size": [
+          125,
+          140
+        ]
+      },
+      {
+        "name": "sun",
+        "file": "sprites/weather_fx/sun.png",
+        "size": [
+          138,
+          154
+        ]
+      },
+      {
+        "name": "moon",
+        "file": "sprites/weather_fx/moon.png",
+        "size": [
+          118,
+          140
+        ]
+      },
+      {
+        "name": "leaf",
+        "file": "sprites/weather_fx/leaf.png",
+        "size": [
+          113,
+          143
+        ]
+      },
+      {
+        "name": "sparkle",
+        "file": "sprites/weather_fx/sparkle.png",
+        "size": [
+          115,
+          125
+        ]
+      }
+    ],
+    "particles": [
+      {
+        "name": "clippings",
+        "file": "sprites/particles/clippings.png",
+        "size": [
+          128,
+          153
+        ]
+      },
+      {
+        "name": "coin_sparkle",
+        "file": "sprites/particles/coin_sparkle.png",
+        "size": [
+          124,
+          162
+        ]
+      },
+      {
+        "name": "dust",
+        "file": "sprites/particles/dust.png",
+        "size": [
+          121,
+          150
+        ]
+      },
+      {
+        "name": "splash",
+        "file": "sprites/particles/splash.png",
+        "size": [
+          118,
+          156
+        ]
+      },
+      {
+        "name": "crit",
+        "file": "sprites/particles/crit.png",
+        "size": [
+          134,
+          151
+        ]
+      },
+      {
+        "name": "smoke",
+        "file": "sprites/particles/smoke.png",
+        "size": [
+          119,
+          147
+        ]
+      },
+      {
+        "name": "heart",
+        "file": "sprites/particles/heart.png",
+        "size": [
+          113,
+          114
+        ]
+      },
+      {
+        "name": "exclaim",
+        "file": "sprites/particles/exclaim.png",
+        "size": [
+          110,
+          126
+        ]
+      }
+    ]
+  }
+}

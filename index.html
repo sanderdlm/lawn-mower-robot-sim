@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LawnBot Tycoon — Idle Robotic Lawn Empire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="top">
+      <div class="title">
+        <span class="emoji">🤖</span>&nbsp; LAWNBOT TYCOON
+      </div>
+      <div class="currencies">
+        <div class="currency coin" id="coinBox">
+          <span class="ico">💰</span>
+          <div style="display:flex; flex-direction:column; align-items:flex-end;">
+            <span class="amt" id="coinAmt">0</span>
+            <span class="rate" id="coinRate">+0 / sec</span>
+          </div>
+        </div>
+        <div class="currency gem" id="gemBox">
+          <span class="ico">💎</span>
+          <div style="display:flex; flex-direction:column; align-items:flex-end;">
+            <span class="amt" id="gemAmt">0</span>
+            <span class="rate" id="gemBonus">+0% bonus</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="stage">
+      <canvas id="lawn"></canvas>
+      <div class="stage-overlay"></div>
+      <div class="stage-hud">
+        <div class="hud-pills">
+          <div class="hud-pill">🤖 Robots: <b id="hudRobots">1</b></div>
+          <div class="hud-pill">🌱 Lawn Growth: <b id="hudGrass">0%</b></div>
+          <div class="hud-pill">🌸 Flowers: <b id="hudFlowers">0</b></div>
+          <div class="hud-pill">🐝 Bees: <b id="hudBees">0</b></div>
+          <div class="hud-pill">🏆 Total Mowed: <b id="hudTotal">0</b></div>
+          <div class="hud-pill" id="hudAtmo" title="Weather and time of day">☀️ Clear</div>
+          <div class="hud-pill" id="hudBuffs" style="display:none" title="Active buffs"></div>
+        </div>
+      </div>
+      <div class="stage-hud-bottom">
+        <div class="hud-fuel">
+          <span id="hudFuelLabel">⛽ 100%</span>
+          <div class="fuel-track"><div class="fuel-bar" id="hudFuelBar"></div></div>
+          <button id="refuelBtn">Refuel <span id="refuelCost"></span></button>
+        </div>
+        <div class="hud-quest" id="questBanner" style="display:none;"></div>
+        <div class="hud-quest hud-event" id="eventBanner" style="display:none;"></div>
+      </div>
+      <div id="newsTicker" class="news-ticker" style="display:none;">
+        <div class="news-track" id="newsTrack"></div>
+      </div>
+    </main>
+
+    <aside class="shop">
+      <h2>⚙️ UPGRADE SHOP</h2>
+      <div class="tabs">
+        <button class="tab active" data-tab="upgrades"><span class="tab-ico">🤖</span><span class="tab-label">Bots</span></button>
+        <button class="tab" data-tab="tools"><span class="tab-ico">🛠️</span><span class="tab-label">Tools</span></button>
+        <button class="tab" data-tab="areas"><span class="tab-ico">🗺️</span><span class="tab-label">Areas</span></button>
+        <button class="tab" data-tab="garden"><span class="tab-ico">🌻</span><span class="tab-label">Garden</span></button>
+        <button class="tab" data-tab="crew"><span class="tab-ico">👷</span><span class="tab-label">Crew</span></button>
+        <button class="tab" data-tab="skins"><span class="tab-ico">🎨</span><span class="tab-label">Skins</span></button>
+        <button class="tab" data-tab="quests"><span class="tab-ico">📋</span><span class="tab-label">Quests</span></button>
+        <button class="tab" data-tab="gemshop"><span class="tab-ico">💎</span><span class="tab-label">Gems</span></button>
+        <button class="tab" data-tab="rubyshop"><span class="tab-ico">♦️</span><span class="tab-label">Rubies</span></button>
+        <button class="tab" data-tab="prestige"><span class="tab-ico">🌟</span><span class="tab-label">Prestige</span></button>
+      </div>
+      <div class="upgrades" id="shopList"></div>
+    </aside>
+
+    <footer class="bottom">
+      <span id="saveStatus">💾 Auto-saving…</span>
+      <div class="actions">
+        <button id="statsBtn" title="View stats">📊 Stats</button>
+        <button id="pediaBtn" title="Lawn-pedia — collection log">📖 Lawn-pedia</button>
+        <button id="zenBtn" title="Zen Mode — fullscreen, no refueling">🧘 Zen</button>
+        <button id="settingsBtn" title="Settings">⚙️ Settings</button>
+        <button id="muteBtn">🔊 Sound</button>
+        <button id="saveBtn">Save Now</button>
+        <button id="resetBtn" class="danger">Reset</button>
+      </div>
+    </footer>
+    <button id="zenExit" title="Exit Zen (Esc) · Press P to save a snapshot">✕ Exit Zen</button>
+  </div>
+
+  <div id="toasts"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
